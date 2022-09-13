@@ -1,7 +1,7 @@
 ---
 title: About
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
 My name is Brian Petty. I'm a former hotel manager that has always had an intense interest in technology. I was (in the 1990s) in college for Computer Science/Computer Engineering at Mississippi State (It was a double major, but only 3 classes different at the time, so no big deal to get both) and then I discovered something: I like playing with hardware. I do like development, but probably not as the only thing that I do. And I like people more than most engineers do. Then after some financial difficulties, I dropped out, moved home, and went to work. That said, after almost two decades in the Hospitality industry, I discovered that I don't like people all _that_ much, and so I started learning what I had *originally* wanted to do, but which there wasn't a degree (at MSU) for at the time: cybersecurity.
