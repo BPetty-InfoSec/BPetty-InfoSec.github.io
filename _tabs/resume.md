@@ -6,7 +6,6 @@ order: 4
 align: center
 ---
 
-# Brian W. Petty
 (765)631-5080 | Anderson, IN | Open to Relocation | [Download PDF](/assets/brianpetty-resume.pdf)
 
 ## Career Summary
