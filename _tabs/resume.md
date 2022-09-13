@@ -6,7 +6,7 @@ order: 4
 align: center
 ---
 # Brian W. Petty
-(765)631-5080 | Anderson, IN | Open to Relocation | [Download PDF](/assets/brianpetty-resume.pdf)
+Anderson, IN | Open to Relocation | [Download PDF](/assets/brianpetty-resume.pdf)
 
 ## Career Summary
 After 10+ years in hospitality management, I went back to school and earned my Bachelor’s in Information Systems Security, and I’m now looking to transition into the cybersecurity field.  I’m currently completing my Masters in Cybersecurity Studies & I have earned my CompTIA Security+ and multiple AWS certifications.  
