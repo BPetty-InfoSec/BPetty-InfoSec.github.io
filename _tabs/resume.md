@@ -8,8 +8,12 @@ align: center
 # Brian W. Petty
 Anderson, IN | Open to Relocation | [Download PDF](/assets/brianpetty-resume.pdf)
 
+****
+
 ## Career Summary
 After 10+ years in hospitality management, I went back to school and earned my Bachelor’s in Information Systems Security, and I’m now looking to transition into the cybersecurity field.  I’m currently completing my Masters in Cybersecurity Studies & I have earned my CompTIA Security+ and multiple AWS certifications.  
+
+----
 
 ## Experience
 ### Full-time Graduate Student
@@ -26,11 +30,15 @@ _**Senior Technical Advisor**_ - June 2020-August 2021 - Daleville, IN
 _**Senior Technical Advisor**_ - June 2019-October 2019 - Anderson, IN
 - Tier 1 technical support for mobile customers, as well as billing and account assistance, and customer service. 
 
+----
+
 ## Certifications
 - CompTIA Security+ CE
 - AWS Solutions Architect Associate
 - AWS Developer Associate
 - AWS Certified Cloud Practitioner
+
+----
 
 ## Education
 **American Public University System** - Charles Town, WV
@@ -40,6 +48,8 @@ Expected Graduation: June 2024
 **American Public University System** - Charles Town, WV
 _B.S. Information Systems Security, Cum Laude_
 Graduated June, 2020
+
+----
 
 ## Computer Languages and Tools
 - Languages: Python, HTML (less proficient, but knowledgeable in C#, Swift, Go, JavaScript)
