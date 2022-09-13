@@ -2,7 +2,7 @@
 title: Brian W. Petty
 icon: fas fa-scroll
 order: 4
-border-bottom: 1px #e1e4e8 solid
+#border-bottom: 1px #e1e4e8 solid
 align: center
 ---
 
