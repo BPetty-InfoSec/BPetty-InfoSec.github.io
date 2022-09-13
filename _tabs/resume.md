@@ -1,6 +1,6 @@
 ---
 title: Resume
-icon: fa-solid fa-scroll
+icon: fas fa-scroll
 order: 4
 ---
 
