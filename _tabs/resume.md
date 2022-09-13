@@ -5,7 +5,7 @@ order: 4
 ---
 
 # Brian W. Petty
-[mailto:application@bpetty.tech](application@bpetty.tech)
+[application@bpetty.tech](mailto:application@bpetty.tech)
 [LinkedIn](https://linkedin.com/in/bwpetty)
 (765)631-5080 | Anderson, IN | Open to Relocation
 
