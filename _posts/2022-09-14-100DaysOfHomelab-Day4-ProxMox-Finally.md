@@ -17,9 +17,9 @@ Finally I'm getting to installing ProxMox. This has...not been a seamless proces
 
 **Subscription:** This was simple enough, once I figured out what was going on.
 * You first edit the ```/etc/apt/sources.list.d/pve-enterprise.list``` file in the text editor of your choice. Comment out the single line in this file, then save and exit.
-* Next, edit the ```/etc/apt/sources.list``` file in the text editor of your choice. Add this line to the bottom: ```deb [http://]download.proxmox.com/debian/pve bullseye pve-no-subscription``` then save and exit.
+* Next, edit the ```/etc/apt/sources.list``` file in the text editor of your choice. Add this line to the bottom: ```deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription``` then save and exit.
 * Now, you can ```apt update``` and ```apt upgrade``` without errors.
-* Instructions for this can be found in the [ProxMox Wiki](deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription)
+* Instructions for this can be found in the [ProxMox Wiki](https://pve.proxmox.com/wiki/Package_Repositories)
 
 **Blank Screen on the Web Interface or No Response:**
 * First, make sure that you're connecting to ```https://[your_proxmox_ip]:8006```. The https part is critical, as http will fail.
