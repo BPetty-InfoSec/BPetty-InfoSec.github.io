@@ -17,7 +17,8 @@ Finally I'm getting to installing ProxMox. This has...not been a seamless proces
 
 **Subscription:** This was simple enough, once I figured out what was going on.
 * You first edit the ```/etc/apt/sources.list.d/pve-enterprise.list``` file in the text editor of your choice. Comment out the single line in this file, then save and exit.
-* Next, edit the ```/etc/apt/sources.list``` file in the text editor of your choice. Add this line to the bottom: ```deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription``` then save and exit.
+* Next, edit the ```/etc/apt/sources.list``` file in the text editor of your choice. Add this line to the bottom:
+	- ```deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription``` then save and exit.
 * Now, you can ```apt update``` and ```apt upgrade``` without errors.
 * Instructions for this can be found in the [ProxMox Wiki](https://pve.proxmox.com/wiki/Package_Repositories)
 
@@ -27,7 +28,7 @@ Finally I'm getting to installing ProxMox. This has...not been a seamless proces
 * Next, if that didn't fix the problem, then you'll need to log in to the server as root.
 	- This can be done on the physical machine (I used a laptop, so this was pretty easy for me), or you can ssh to ```root@[your_proxmox_ip```. Login is `root` and the password will be what you set during installation.
 * Follow the instructions in the [ProxMox Forums](https://forum.proxmox.com/threads/blank-web-interface.81356/)
-	- You might try restarting the services with ```systemctl restart [services_starting_with_'pve'```
+	- You might try restarting the services with ```systemctl restart [services_starting_with_'pve']```
 	- Main thing that might work is reinstalling some packages that deal with the web frontend.
 		+ Run ```apt install --reinstall pve-manager``` as root and check to see if it worked
 		+ Run ```apt install --reinstall proxmox-widget-toolkit``` as root and check to see if it worked
