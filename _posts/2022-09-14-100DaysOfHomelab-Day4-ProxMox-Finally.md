@@ -16,21 +16,21 @@ Finally I'm getting to installing ProxMox. This has...not been a seamless proces
 **No ethernet cable:** I stole the one from my desktop Windows PC temporarily.
 
 **Subscription:** This was simple enough, once I figured out what was going on.
-* You first edit the `/etc/apt/sources.list.d/pve-enterprise.list` file in the text editor of your choice. Comment out the single line in this file, then save and exit.
-* Next, edit the `/etc/apt/sources.list` file in the text editor of your choice. Add this line to the bottom: `deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription` then save and exit.
-* Now, you can `apt update` and `apt upgrade` without errors.
+* You first edit the ```/etc/apt/sources.list.d/pve-enterprise.list``` file in the text editor of your choice. Comment out the single line in this file, then save and exit.
+* Next, edit the ```/etc/apt/sources.list``` file in the text editor of your choice. Add this line to the bottom: ```deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription``` then save and exit.
+* Now, you can ```apt update``` and ```apt upgrade``` without errors.
 * Instructions for this can be found in the [ProxMox Wiki](deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription)
 
 **Blank Screen on the Web Interface or No Response:**
-* First, make sure that you're connecting to `https://[your_proxmox_ip]:8006`. The https part is critical, as http will fail.
+* First, make sure that you're connecting to ```https://[your_proxmox_ip]:8006```. The https part is critical, as http will fail.
 * If that didn't work, try a different browser or a private window (or clear your cache)
 * Next, if that didn't fix the problem, then you'll need to log in to the server as root.
-	- This can be done on the physical machine (I used a laptop, so this was pretty easy for me), or you can ssh to `root@[your_proxmox_ip`. Login is `root` and the password will be what you set during installation.
+	- This can be done on the physical machine (I used a laptop, so this was pretty easy for me), or you can ssh to ```root@[your_proxmox_ip```. Login is `root` and the password will be what you set during installation.
 * Follow the instructions in the [ProxMox Forums](https://forum.proxmox.com/threads/blank-web-interface.81356/)
-	- You might try restarting the services with `systemctl restart [services_starting_with_'pve'`
+	- You might try restarting the services with ```systemctl restart [services_starting_with_'pve'```
 	- Main thing that might work is reinstalling some packages that deal with the web frontend.
-		+ Run `apt install --reinstall pve-manager` as root and check to see if it worked
-		+ Run `apt install --reinstall proxmox-widget-toolkit` as root and check to see if it worked
+		+ Run ```apt install --reinstall pve-manager``` as root and check to see if it worked
+		+ Run ```apt install --reinstall proxmox-widget-toolkit``` as root and check to see if it worked
 
 My particular situation required using a private window. It still does, don't know why, but at least I can access it!
 
@@ -56,11 +56,11 @@ This video uses an older version of ProxMox than current, and an older version o
 This is pretty straightforward.
 1. Make sure that the ISO you downloaded from the [OPNsense Download Page](https://opnsense.org/download/) is the 'DVD' image type
 2. When it boots up, _don't_ log in with root.
-	- Login: `installer`
-	- Password: `opnsense`
+	- Login: ```installer```
+	- Password: ```opnsense```
 3. Select the options that you want, I do recommend going ahead and changing the root password to something better.
 4. Once everything is installed, reboot
-5. From there, log in as root (using either `opnsense` as the password, or the new password you set)
+5. From there, log in as root (using either ```opnsense``` as the password, or the new password you set)
 6. Make sure that the interfaces (there should be two) are both showing up. If not, select option 1 to assign interfaces to WAN and LAN
 7. Assign the interfaces if there is a specific IP address that you want to use, or if they are on the wrong subnet.
 8. From there, you should be able to connect to the web interface for OPNsense!
