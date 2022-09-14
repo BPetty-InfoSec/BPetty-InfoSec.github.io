@@ -21,6 +21,7 @@ Most of today has been spent updating my blog site to include my resume, and for
 I'm enjoying this blog quite a bit, as well as working on the homelab. I took today to work on it as I realized something fairly important as I was getting ready to install ProxMox on my old laptop: I don't have a network cable. Total facepalm moment. I may still do the install tonight, but likely won't have it up and running until tomorrow at the earliest.  
 
 ----  
+
 ### Future projects
 What does the future hold? Well, that's a pretty big question, and there's lots of stuff that I want to do.
 * A load balancer for the network
