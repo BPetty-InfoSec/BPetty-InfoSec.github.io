@@ -16,6 +16,7 @@ Some of these quirks:
 
 Most of today has been spent updating my blog site to include my resume, and formatting that somewhat. I'll be working on that for the rest of today, likely. Next steps is to try using HTML to center some content on the resume so that it isn't _all_ left-justified. That's great for a normal blog post, like this one, but not so good for a resume.
 ----
+
 ### ProxMox...when?
 I'm enjoying this blog quite a bit, as well as working on the homelab. I took today to work on it as I realized something fairly important as I was getting ready to install ProxMox on my old laptop: I don't have a network cable. Total facepalm moment. I may still do the install tonight, but likely won't have it up and running until tomorrow at the earliest.
 ----
