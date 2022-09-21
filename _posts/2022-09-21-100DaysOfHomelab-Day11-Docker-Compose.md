@@ -35,7 +35,7 @@ So the current set of containers that I'm looking at having (right now) availabl
 
 ## Current Status
 This is the list of what I'm working on getting up and running in my primary docker-compose file...and it's definitely a work in progress. Of all of this: MidPoint and Heimdall are working, lol. Yacht _was_ working, but with the docker-compose, it...isn't. Not sure why yet Still, MidPoint was the one that I wanted to work the most. I'm still having issues with volumes and mounting them. Calibre, for example, works fine. _EXCEPT_ that it doesn't mount the volume to the correct place. The directory is created, but it's initialized as an empty directory, with just the default db and default "book" on how to use Calibre. This is the current part of the docker-compose.yaml file dealing with Calibre:
-```
+```{yaml}
   calibre:
     image: linuxserver/calibre:latest
     container_name: calibre
@@ -49,6 +49,7 @@ This is the list of what I'm working on getting up and running in my primary doc
       - TZ=America/Indiana/Indianapolis
     volumes:
       - ./calibre-lib:/config
+}
 ```
 
 Any suggestions? Email me at brian@bpetty.tech, or DM me on Twitter (@matrixwyrm)
