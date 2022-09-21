@@ -49,7 +49,6 @@ This is the list of what I'm working on getting up and running in my primary doc
       - TZ=America/Indiana/Indianapolis
     volumes:
       - ./calibre-lib:/config
-}
 ```
 
 Any suggestions? Email me at brian@bpetty.tech, or DM me on Twitter (@matrixwyrm)
