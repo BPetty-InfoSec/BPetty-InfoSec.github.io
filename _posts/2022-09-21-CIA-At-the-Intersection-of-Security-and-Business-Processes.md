@@ -16,6 +16,7 @@ The CIA Triad is kind of a basis of what security is, and is (naturally) made up
 1. Confidentiality
 2. Integrity
 3. Availability
+
 A successful security plan must take in to account all three of these categories. Simple, right? Well...no, not necessarily. Lets look at each of these in turn. I won't be going into a super amount of detail on these, just a brief, 1000-yard overview.
 
 ----
