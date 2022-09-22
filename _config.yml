@@ -200,11 +200,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-plugins:
-  - jekyll-analytics
-
-jekyll_analytics:
-  Piwik:
-    url: bpetty.piwik.pro
-    siteId: 103605ca-631e-4610-990e-96c4252a24af
