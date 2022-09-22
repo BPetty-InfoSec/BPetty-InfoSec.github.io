@@ -89,7 +89,7 @@ avatar: assets/img/matrixwyrm_avatar.png
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -100,9 +100,10 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: BPetty-InfoSec/BPetty-InfoSec.github.io 
-    repo_id: bpetty-infosec.github.io
-    category: Blog Discussions
-    category_id: blog-discussions
+    repo_id: "enter-repo-id"
+    category: "Blog Discussions"
+    category_id: "enter-category-id"
+    reactions-enabled: 1
     mapping:          # optional, default to 'pathname'
     input_position:   # optional, default to 'bottom'
     lang:             # optional, default to the value of `site.lang`
@@ -199,3 +200,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  Piwik:
+    url: bpetty.piwik.pro
+    siteId: 103605ca-631e-4610-990e-96c4252a24af
