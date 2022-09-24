@@ -2,7 +2,7 @@
 layout: post
 title: "Skills: What are the Most Important Ones in Tech?"
 category: Security Thoughts
-tags: infosec cybersecurity "tech skills" "soft skills" wfh 
+tags: infosec cybersecurity tech-skills soft-skills wfh 
 ---
 ## Summary
 I see a lot of discussion online about skills, and what are the most important skills to have to land a job in tech. I don't have a huge amount of experience in tech jobs (yet) short of technical support, but I do have a great deal of business experience...and I talk to a lot of people.
