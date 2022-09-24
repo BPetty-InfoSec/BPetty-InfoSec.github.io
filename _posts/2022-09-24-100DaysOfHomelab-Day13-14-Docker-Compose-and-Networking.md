@@ -2,7 +2,7 @@
 layout: post
 title: 100DaysOfHomelab 13-14/100 Docker Compose and Networking
 category: 100DaysOfHomelab
-tags: homelab virtualization docker container docker-compose networking "docker networks"
+tags: homelab virtualization docker container docker-compose networking
 ---
 So I didn't post anything yesterday. There was really nothing to talk about beyond: I made a bunch of tiny edits in my docker-compose.yml file, pushed them to GitHub one by one, and pulled them down to my test machine. I would literally make an edit in Sublime on my macbook, commit/push the change, and then on my VM, I would hit up-arrow twice and enter to send ```git pull```, followed by another two up-arrows and enter to send ```sudo docker-compose up -d``` over and over again.
 
