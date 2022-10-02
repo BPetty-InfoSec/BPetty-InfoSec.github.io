@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100DaysOfHomelab 4/100 Part Deaux- Setting up OPNsense (basic)
+title: 100DaysOfHomelab 4/100 Part Deaux - Setting up OPNsense (basic)
 category: 100DaysOfHomelab
 tags: proxmox homelab virtualization OPNsense firewall router dns ssh certificate
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100DaysOfHomelab 15/100 The Break and More Docker Compose
+title: 100DaysOfHomelab 15/100 - The Break and More Docker Compose
 category: 100DaysOfHomelab
 tags: homelab virtualization docker container docker-compose
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100DaysOfHomelab 12/100 Learning and RL Conflicts
+title: 100DaysOfHomelab 12/100 - Learning and RL Conflicts
 category: 100DaysOfHomelab
 tags: homelab virtualization docker container docker-compose
 ---

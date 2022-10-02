@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100DaysOfHomelab 13-14/100 Docker Compose and Networking
+title: 100DaysOfHomelab 13-14/100 - Docker Compose and Networking
 category: 100DaysOfHomelab
 tags: homelab virtualization docker container docker-compose docker-networking networking layer3 ipvlan
 ---
