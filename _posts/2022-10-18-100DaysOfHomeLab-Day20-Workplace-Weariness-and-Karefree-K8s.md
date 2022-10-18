@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100DaysOfHomelab 209/100 - Workplace Weariness and Karefree K8s
+title: 100DaysOfHomelab 20/100 - Workplace Weariness and Karefree K8s
 category: 100DaysOfHomelab
 tags: homelab virtualization docker container docker-compose kubernetes k8s k3s
 ---
