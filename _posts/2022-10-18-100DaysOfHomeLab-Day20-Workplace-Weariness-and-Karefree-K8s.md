@@ -10,5 +10,5 @@ Well, as I've mentioned a few times previously, I have a new job. I'm out of tra
 
 My next move (and I have been poking at this behind the scenes, at least every other day, just not enough to write about) is to transition from Docker containers run by themselves, and then via Docker-Compose, to finally take the plunge into Kubernetes. I'm leaning towards K3S right now. The Rancher people seem pretty responsive, and it's fairly well documented. The eventual goal is to connect my internal network to the outside internet via a loadbalancer. I'd like to set up virtual docker networks to keep some segmentation, and make it so that only the services that I want to be available to me (and friends) are exposed, with my internal services only available remotely via VPN, just for that extra layer of seperation. This is what I'm looking at:
 
-![HomeLab Architecture](/img/HomelabArchitecture.png)
+![HomeLab Architecture](img/HomelabArchitecture.png)
 _Proposed Homelab Architecture_
