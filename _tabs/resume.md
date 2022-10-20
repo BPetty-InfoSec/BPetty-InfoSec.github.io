@@ -14,9 +14,12 @@ After 10+ years in hospitality management, I went back to school and earned my B
 
 ----
 ## Experience
-**Full-time Graduate Student**
-_**American Public University System**_ - June 2022-Present - Charles Town, WV (Remote)
-- Enrolled in Cybersecurity Studies degree program, which include studies of network security, information assurance, risk management, information security, cybercrime, and digital forensics. with the Master of Science in Cybersecurity Studies.
+**IAM Engineer I**
+_**Provision IAM**_ - September 2022-Present - Cumberland, MD (Remote)
+- Assisted in deployment and customization of IAM solutions for clients
+- Modified resource connectors for custom connection
+- Deployed, upgraded, and assisted with management of open-source software in an enterprise environment
+
 
 **Concentrix**
 _**Senior Technical Advisor**_ - June 2020-August 2021 - Daleville, IN
@@ -50,4 +53,4 @@ Graduated June, 2020
 - Languages: Python, HTML (less proficient, but knowledgeable in C#, Swift, Go, JavaScript)
 - Linux: Debian, RHEL, and Arch-based distributions
 - Windows: Server and Workstation editions, Group Policies, and Windows Subsystem for Linux, Sysinternals, PowerShell, Windows Subsystem for Linux, WMIC, Firewall, and Registry
-- Kali, Parrot, and BlackArch: bash, Wireshark, nmap, Metasploit, DirBuster, exploitdb, BurpSuite
+- Kali, Parrot, and BlackArch: bash, Wireshark, nmap, Metasploit, DirBuster, exploitdb, BurpSuite, midPoint
