@@ -12,4 +12,13 @@ Since then, I've kept learning, and have a Security+ from CompTIA, and my AWS Cl
 
 This site (well, blog) is primarily dedicated to the 100DaysOfHomelab challenge, which is what inspired its creation. I would be very surprised if I don't eventually start posting other content about networking and security, as its something that I really enjoy learning about.
 
-Currently, I'm in a Masters program (again at APU) in Cybersecurity Studies. I'll probably slow that down once I actually get a job. Graduate school has a whole *bucket* load of writing. Who knew? Fortunately, I like to write, and I like to learn new things. And reading formal research papers can get you some great information, once you know how to read them and how/why they're written.
+Things are slow right now with the #100DaysOfHomeLab, because I started a new position as a (very junior) IAM Engineer a little over a month ago. That's taking most of my time and energy right now. Hopefully I'll be able to get back to it pretty soon, though!
+
+----
+
+*** *Contact Links:*
+
+*Email:* [b.w.petty@gmail.com](mailto:b.w.petty@gmail.com)
+*GitHub:* [BPetty-InfoSec](https://github.com/BPetty-InfoSec)
+*Twitter:* [MatrixWyrm](https://twitter.com/MatrixWyrm)
+*Mastodon:* <a href="https://infosec.exchange/@MatrixWyrm" rel="me">MatrixWyrm</a>
